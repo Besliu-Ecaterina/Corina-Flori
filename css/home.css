@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+
+body {
+    background: linear-gradient(#0000002f, #00000013), url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page-container {
+    min-height: 100vh;
+    padding-top: 90px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 5px 3px 20px gray;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-header {
+    width: 100%;
+}
+
+.main-navigation {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header-logo {
+    margin-left: 40px;
+    width: 100px;
+}
+
+.intro-index {
+    text-align: center;
+}
+
+.intro-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    text-transform: none;
+    margin: auto;
+    line-height: 130%;
+    color: #cec9c9de;
+}
+
+.intro-text::after{
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    width: 500px;
+    height: 3px;
+    margin: 30px auto;
+}
+
+.btn{
+    display: inline-block;
+    background: linear-gradient(to bottom,#faafc4, #ffdbde); 
+    color: #000000;
+    padding: 8px 50px;
+    margin: 20px auto 100px auto;
+}
+
+.btn:hover{
+    background-color: #a08000;
+    transition: 1s;
+}
+
+footer {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 300px;
+    padding: 5px 0;
+    background: linear-gradient(to top,#faafc4, #ffdbde);
+    color: white;  
+}
+
+.facebook {
+    position: absolute;
+    top: 180px;
+    width: 110px;
+    left: 650px;
+}
+
+.instagram {
+    position: absolute;
+    top: 180px;
+    width: 80px;
+    right: 650px;
+}
+
+.logo_footer {
+    position: absolute;
+    text-align: center;
+    left: 720px;
+    width: 100px;
+}
+
+.telefon_footer{
+    font-size: 22px;
+    position: absolute;
+    left: 110px;
+    top: 105px;
+    text-transform: none;
+    font-weight: 100;
+}
+
+.email_footer{
+    position: absolute;
+    right: 120px;
+    top: 105px;
+    font-size: 22px;
+    text-transform: none;
+    font-weight: 100;
+}
+
+.rights_main{
+    position: absolute;
+    bottom: 30px;
+    right: 270px;
+    top: 255px;
+    font-size: small;
+    color: #ffffff;
+    text-transform: none;
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+
+    .header-logo {
+        width: 70px;
+    }
+
+    .intro-text::after{
+        content: "";
+        display: block;
+        background-color: #ffffff;
+        width: 300px;
+        height: 3px;
+        margin: 30px auto;
+    }
+
+    footer {
+        min-height: 280px;
+        height: 1.5rem;   
+    }
+
+    .logo_footer {
+        top: 115px;
+        left: 165px;
+        width: 60px;
+    }
+    
+    .telefon_footer{
+        font-size: 17px;
+        left: 115px;
+        top: 65px;
+    }
+
+    .email_footer{
+        left: 95px;
+        top: 180px;
+        font-size: 17px;
+    }
+
+    .rights_main{
+        bottom: 5px;
+        left: 10px;
+        right: 10px;
+        top: 220px;
+        font-size: 10px;
+    }
+
+    .facebook {
+        left: 120px;
+        top: 15px;
+        width: 75px;
+    }
+
+    .instagram {
+        left: 210px;
+        top: 15px;
+        width: 50px;
+    }
+}

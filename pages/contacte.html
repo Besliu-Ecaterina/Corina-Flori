@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Florăria „Corina Flori” înseamnă flori și emoții.">
+    <meta name="keywords" content="Florărie, Corina, Corina Flori, flori, buchete, coșulețe, butic, aranjamente, surprize, livrări, servicii, parfum, culoare">
+    <meta name="author" content="Burlacu Sandu, Cebotari Marian-Daniel">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="icon" href="../images/logo.jpg">
+    <script src="../js/main.js" defer></script>
+    <title>Corina Flori</title>
+</head>
+
+<body>
+    <header>
+        <img class="header-logo" src="../images/logo.jpg" alt="Logo-ul site-ului">
+        <div id="navbar" class="nav">
+            <a href="../index.html">Pagina principală</a>
+            <a href="despre.html">Despre noi</a>
+            <a href="servicii.html">Servicii</a>
+            <a href="contacte.html" class="active">Contacte</a>
+            <a id="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars"></i></a>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <main>
+            <h1 class="title">Contacte</h1>
+            <br>
+            <div class="row">
+                <div class="col-50">
+                    <h2>Date de contact:</h2>
+                    <ul type="square" class="ul-serv">
+                        <li><b>Adresa: </b>str. Națională 20A.</li>
+                        <li><b>Telefon: </b>069397689</li>
+                        <li><b>E-mail: </b>florăriacorina@gmail.com</li>
+                        <li><b>Ore de lucru: </b>8:00 - 21:00</li>
+                    </ul>
+                    <div class="contact-form">
+                        <form method="post" id="mesaj">
+                            <h3 class="centered">Lasă un mesaj</h3>
+                            <input type="text" placeholder="Nume" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea rows="3" placeholder="Mesaj" required></textarea>
+                            <input onclick="transmite()" type="submit" value="Transmite">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.4492382816466!2d27.799983815493416!3d47.207791579160244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb014e904f6cfb%3A0x83448748e0dbc1c5!2sCorina%20Flori!5e0!3m2!1sen!2s!4v1648408746968!5m2!1sen!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <img class="logo_footer" src="../images/logo.jpg">
+        <h5 class="telefon_footer">Telefon: 069397689</h5>
+        <h5 class="email_footer">florăriacorina@gmail.com</h5>
+        <div>
+            <a target="_blank" href="https://www.facebook.com/Surprize-La-Domiciliu-Ungheni-637391153553991">
+                <img class="facebook" src="../images/facebook.png">
+            </a>
+            <a href="https://instagram.com/floraria.corina?utm_medium=copy_link">
+                <img class="instagram" src="../images/instagram.png">
+            </a>
+        </div>
+        <h6 class="rights_main">Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors”
+            organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului.</h6>
+    </footer>
+</body>
+
+</html>
