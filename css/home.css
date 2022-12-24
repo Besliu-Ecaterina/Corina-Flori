@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a8a8a8;
+    border-radius: 8px;
+}
+
 body {
     background: linear-gradient(#0000002f, #00000013), url(../images/background.jpg);
     background-size: cover;
@@ -48,7 +61,7 @@ a {
     text-align: center;
 }
 
-.intro-text{
+.intro-text {
     font-family: 'Ubuntu', sans-serif;
     font-size: 70px;
     text-transform: none;
@@ -57,7 +70,7 @@ a {
     color: #cec9c9de;
 }
 
-.intro-text::after{
+.intro-text::after {
     content: "";
     display: block;
     background-color: #ffffff;
@@ -66,7 +79,7 @@ a {
     margin: 30px auto;
 }
 
-.btn{
+.btn {
     display: inline-block;
     background: linear-gradient(to bottom,#faafc4, #ffdbde); 
     color: #000000;
@@ -74,7 +87,7 @@ a {
     margin: 20px auto 100px auto;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #a08000;
     transition: 1s;
 }
@@ -131,9 +144,9 @@ footer {
 
 .rights_main{
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     right: 270px;
-    top: 255px;
+    top: 250px;
     font-size: small;
     color: #ffffff;
     text-transform: none;
